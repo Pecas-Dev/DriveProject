@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CarMove : MonoBehaviour
 {
@@ -34,6 +35,14 @@ public class CarMove : MonoBehaviour
     public void Steer(int value)
     {
         steerValue = value;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Obstacles")
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }
 
