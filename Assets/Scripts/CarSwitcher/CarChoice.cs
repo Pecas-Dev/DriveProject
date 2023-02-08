@@ -17,7 +17,7 @@ public class CarChoice : MonoBehaviour
     public void ChangeToModel1()
     {
         carSwitcher.ChangeModel(0);
-        carSaved.text = "YOU CHOSE THE CAMARO!";
+        carSaved.text = "YOU CHOSE THE F1!";
         StartCoroutine(ClearTextCar());
     }
 
