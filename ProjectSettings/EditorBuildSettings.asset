@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Difficulty.unity
     guid: a75e1a18bf5db0a4794b5fe0b435bf0f
   - enabled: 1
+    path: Assets/Scenes/Car.unity
+    guid: 3d5e4eae5b9d5454c84d8457a1565962
+  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
