@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: PixelGame
   m_EditorClassIdentifier: 
-  hashCode: 93985224
+  hashCode: 352377446
   material: {fileID: 5825230194915490437}
-  materialHashCode: -510395160
+  materialHashCode: 1565583366
   m_Version: 1.1.0
   m_SourceFontFileGUID: 0441351e28f216a4aa6c727c8d9bcabc
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 0441351e28f216a4aa6c727c8d9bcabc, type: 3}
@@ -2206,8 +2206,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Pixel Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ValidKeywords:
-  - GLOW_ON
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
