@@ -45,6 +45,11 @@ public class SceneManage : MonoBehaviour
         SceneManager.LoadScene("Difficulty");
     }
 
+    public void CarChoice()
+    {
+        SceneManager.LoadScene("Car");
+    }
+
     public void EasyDifficulty()
     {
         float easyMultiplier = 0.5f;
