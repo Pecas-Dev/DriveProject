@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class CarMove : MonoBehaviour
 {
 
-    [SerializeField] float moveSpeed = 10f;
+    [SerializeField] public float moveSpeed = 10f;
     [SerializeField] float rotateSpeed = 200.0f;
     [SerializeField] float timer = 0f;
 
@@ -41,8 +41,13 @@ public class CarMove : MonoBehaviour
     {
         if(other.gameObject.tag == "Obstacles")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("MainMenu");
         }
+    }
+
+    public void Ontrigger()
+    {
+        Invoke(nameof(OnTriggerEnter), 0.5f);
     }
 }
 
